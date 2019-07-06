@@ -1,40 +1,63 @@
 body  {
-  background-image: url(https://robbreportedit.files.wordpress.com/2015/10/mb-f-watch-021.jpg);
+  background-image: url(https://www.wandaprint.com/wp-content/uploads/2017/06/AT-ANTONI-TUDISCO-CGI-3D-PINK-AND-RED-8-1440x0-c-default.jpg);
 }
 h1  {
-  color: white;
+  display: block;
+  color: purple;
   text-align: center;
+  font-style: italic;
+  font-size: 100px;
 }
 body  {
-  color: blue;
+  color: white;
 
 }
 ul  {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 150px;
-  background-color: red;
-  border: 1px solid #555;
+  width: hidden;
+  background-color: #333;
+}
+li  {
+  float: left;
 }
 li a  {
   display: block;
-  color: #000;
-  padding: 8px 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 li  {
   text-align: center;
-  border-bottom: none;
+  border-bottom: 1px solid white;
 }
 li:last-child {
   border-bottom: none;
 }
-li a.active {
-  background-color: #4caf50;
-  color: white;
+.active {
+  background-color: white;
+  color: blue;
 }
 li a:hover:not(.active)  {
-  background-color: #555;
+  background-color: blue;
   color: white;
+}
+h2  {
+  display: block;
+  color: white;
+  text-align: none;
+  font-style: italic;
+  font-size: 70px;
+
+}
+p {
+  font-style: italic;
+  font-size: 40px;
+  color: white;
+}
+.center  {
+  text-align: center;
+  border: 3px solid green;
 }
