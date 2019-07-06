@@ -27,21 +27,21 @@ li a  {
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: purple;
 }
 li  {
   text-align: center;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid yellow;
 }
 li:last-child {
   border-bottom: none;
 }
 .active {
-  background-color: white;
+  background-color: yellow;
   color: blue;
 }
 li a:hover:not(.active)  {
-  background-color: blue;
+  background-color: purple;
   color: white;
 }
 h2  {
@@ -56,6 +56,7 @@ p {
   font-style: italic;
   font-size: 40px;
   color: white;
+  background-color: purple;
 }
 .center  {
   text-align: center;
