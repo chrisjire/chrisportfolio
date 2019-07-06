@@ -62,3 +62,11 @@ p {
   text-align: center;
   border: 3px solid green;
 }
+.boxed  {
+  border: 2px solid yellow;
+  background-color: none;
+  font-size: 30px;
+  font-style: italic;
+  color: white;
+  text-align: justify;
+}
