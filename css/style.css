@@ -13,7 +13,7 @@ body  {
   color: white;
 
 }
-ul  {
+.navigation ul  {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -21,32 +21,32 @@ ul  {
   background-color: yellow;
   color: yellow;
 }
-li  {
+.navigation li  {
   float: left;
 }
-li a  {
+.navigation li a  {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: red;
 }
-li  {
+.navigation li  {
   text-align: center;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid purple;
 }
-li:last-child {
-  border-bottom: red;
+.navigation li:last-child {
+  border-bottom: white;
 }
-.active {
-  background-color: blue;
+.navigation .active {
+  background-color: purple;
   color: white;
 }
-li a:hover:not(.active)  {
+.navigation li a:hover:not(.active)  {
   background-color: yellow;
   color: white;
 }
-h2  {
+.center h2  {
   display: block;
   color: white;
   text-align: none;
@@ -54,7 +54,7 @@ h2  {
   font-size: 70px;
 
 }
-p {
+.center p {
   font-style: italic;
   font-size: 40px;
   color: white;
@@ -74,7 +74,16 @@ p {
   text-align: justify;
 
 }
-h3  {
+.boxed img  {
+  float: right;
+  padding: 1px;
+  height: 800px;
+}
+.boxed ol {
+  font-style: oblique;
+  color: aqua;
+}
+.about h3  {
   display: block;
   color: white;
   text-align: none;
@@ -82,6 +91,9 @@ h3  {
   font-size: 60px;
 
 }
-h4 {
+.about p  {
+  font-size: 40px;
+}
+.about ol {
   font-size: 50px;
 }
