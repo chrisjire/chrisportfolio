@@ -2,6 +2,12 @@ body  {
   background-image: url(https://www.wandaprint.com/wp-content/uploads/2017/06/AT-ANTONI-TUDISCO-CGI-3D-VARIOUS-WORK-21.jpg);
   opacity: initial;
 }
+@media screen and (min-width: 450px) and (max-width: 760px) {
+  body  {
+    background-color: black;
+    color: azure;
+  }
+}
 h1  {
   display: block;
   color: purple;
@@ -72,6 +78,7 @@ body  {
   font-style: italic;
   color: white;
   text-align: justify;
+  padding: 6px;
 
 }
 .boxed img  {
