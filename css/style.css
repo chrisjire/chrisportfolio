@@ -1,111 +1,138 @@
-body  {
-  background-image: url(https://www.wandaprint.com/wp-content/uploads/2017/06/AT-ANTONI-TUDISCO-CGI-3D-VARIOUS-WORK-21.jpg);
-  opacity: initial;
+* {
+  margin: 0;
+  padding: 0;
 }
 @media screen and (min-width: 450px) and (max-width: 760px) {
   body  {
-    background-color: black;
-    color: azure;
+    background-color: white;
+    color: white;
   }
 }
-h1  {
-  display: block;
-  color: purple;
-  text-align: center;
-  font-style: italic;
-  font-size: 100px;
-}
+
 body  {
-  color: white;
+  color: grey;
 
 }
-.navigation ul  {
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: gray;
+  position: fixed;
+  align-items: center;
+}
+.nav  {
+
+  list-style: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+.nav ul  {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: hidden;
-  background-color: yellow;
-  color: yellow;
+
 }
-.navigation li  {
-  float: left;
+.nav li  {
+
+  list-style: none;
+  line-height: 80px;
 }
-.navigation li a  {
-  display: block;
-  color: white;
+.nav li a  {
+  display: flex;
+  margin-right: 130px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+.nav .active {
+  color: purple;
+
+}
+.nav li a:hover {
+  color: black;
+  text-decoration: none;
+}
+.back{
+  background-image: url(https://images.unsplash.com/photo-1428223501723-d821c5d00ca3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80);
+  padding: 100px;
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.back h1  {
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: red;
+  margin-top: 80px;
+  font-size: 300px;
+  color: white;
+  font-family: 'Monoton', cursive;
 }
-.navigation li  {
+.back h2 {
   text-align: center;
-  border-bottom: 1px solid purple;
-}
-.navigation li:last-child {
-  border-bottom: white;
-}
-.navigation .active {
-  background-color: purple;
+  margin-top: 200px;
+  font-size: 40px;
   color: white;
+  float: right;
+  font-family: 'Kaushan Script', cursive;
 }
-.navigation li a:hover:not(.active)  {
-  background-color: yellow;
-  color: white;
-}
-.center h2  {
-  display: block;
-  color: white;
-  text-align: none;
+.center h1 {
+
+  color: grey;
+  text-align: center;
   font-style: italic;
   font-size: 70px;
 
 }
 .center p {
   font-style: italic;
-  font-size: 40px;
-  color: white;
-  background-color: black;
-}
-.center  {
+  font-size: 45px;
+  color: grey;
   text-align: center;
-  border: black;
   
 }
-.boxed  {
-  border: 2px solid black;
-  background-color: black;
-  font-size: 30px;
-  font-style: italic;
-  color: white;
-  text-align: justify;
-  padding: 6px;
+.center ul{
+  margin-left: 20px;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+.center li a  {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  color: purple;
+}
+.center li a:hover {
+  color: black;
+  text-decoration: none;
+}
 
-}
-.boxed img  {
-  float: right;
-  padding: 1px;
-  height: 800px;
-}
-.boxed ol {
-  font-style: oblique;
-  color: aqua;
-}
-.about h3  {
-  display: block;
+.about  {
+  background-image: url(https://images.unsplash.com/photo-1501471984908-815b996862f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80);
+  padding: 100px;
+  height: 810px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
-  text-align: none;
+}
+.about h1  {
+  display: block;
+  text-align: center;
   font-style: italic;
   font-size: 60px;
 
 }
 .about p  {
-  font-size: 40px;
+  font-size: 30px;
+  text-align: center;
+
 }
 .about ol {
-  font-size: 50px;
-}
-.about img  {
-  float: right;
-  height: 500px;
-  padding: 200px;
+  font-size: 28px;
+  list-style: none;
+  text-align: center;
 }
